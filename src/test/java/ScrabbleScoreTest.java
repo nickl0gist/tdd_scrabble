@@ -11,12 +11,14 @@ public class ScrabbleScoreTest {
         assertEquals(1, scrabble.getScore());
     }
 
+    @Ignore
     @Test
     public void testAUpperCaseLetter() {
         Scrabble scrabble = new Scrabble("A");
         assertEquals(1, scrabble.getScore());
     }
 
+    @Ignore
     @Test
     public void testAValuableLetter() {
         Scrabble scrabble = new Scrabble("f");
@@ -24,6 +26,7 @@ public class ScrabbleScoreTest {
     }
 
 
+    @Ignore
     @Test
     public void testAShortWord() {
         Scrabble scrabble = new Scrabble("at");
@@ -31,6 +34,7 @@ public class ScrabbleScoreTest {
     }
 
 
+    @Ignore
     @Test
     public void testAShortValuableWord() {
         Scrabble scrabble = new Scrabble("zoo");
@@ -38,6 +42,7 @@ public class ScrabbleScoreTest {
     }
 
 
+    @Ignore
     @Test
     public void testAMediumWord() {
         Scrabble scrabble = new Scrabble("street");
@@ -45,6 +50,7 @@ public class ScrabbleScoreTest {
     }
 
 
+    @Ignore
     @Test
     public void testAMediumValuableWord() {
         Scrabble scrabble = new Scrabble("quirky");
@@ -52,6 +58,7 @@ public class ScrabbleScoreTest {
     }
 
 
+    @Ignore
     @Test
     public void testALongMixCaseWord() {
         Scrabble scrabble = new Scrabble("OxyphenButazone");
@@ -59,6 +66,7 @@ public class ScrabbleScoreTest {
     }
 
 
+    @Ignore
     @Test
     public void testAEnglishLikeWord() {
         Scrabble scrabble = new Scrabble("pinata");
@@ -66,6 +74,7 @@ public class ScrabbleScoreTest {
     }
 
 
+    @Ignore
     @Test
     public void testAnEmptyInput() {
         Scrabble scrabble = new Scrabble("");
@@ -73,6 +82,7 @@ public class ScrabbleScoreTest {
     }
 
 
+    @Ignore
     @Test
     public void testEntireAlphabetAvailable() {
         Scrabble scrabble = new Scrabble("abcdefghijklmnopqrstuvwxyz");
