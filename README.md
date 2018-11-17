@@ -1,13 +1,13 @@
-# Scrabble Score
+# Wyniki w Scrabble
 
-Given a word, compute the scrabble score for that word.
+Oblicz wynik w Scrabble dla danego słowa.
 
-## Letter Values
+## Wartości liter
 
-You'll need these:
+Będziesz potrzebować tej tabeli:
 
 ```text
-Letter                           Value
+Litera                           Wartość
 A, E, I, O, U, L, N, R, S, T       1
 D, G                               2
 B, C, M, P                         3
@@ -17,33 +17,33 @@ J, X                               8
 Q, Z                               10
 ```
 
-## Examples
+## Przykłady
 
-"cabbage" should be scored as worth 14 points:
+Słowo "cabbage" powinno być policzone jako 14 punktów:
 
-- 3 points for C
-- 1 point for A, twice
-- 3 points for B, twice
-- 2 points for G
-- 1 point for E
+- 3 punkty dla C
+- 1 punkt dla A, dwukrotnie
+- 3 punkty dla B, dwukrotnie
+- 2 punkty dla G
+- 1 punkt dla E
 
-And to total:
+Sumując:
 
 - `3 + 2*1 + 2*3 + 2 + 1`
 - = `3 + 2 + 6 + 3`
 - = `5 + 9`
 - = 14
 
-# Running the tests
+# Uruchomienie testów
 
-You can run all the tests for an exercise by entering
+Możesz wywołać wszystkie testy pisząć następującą komendę
 
 ```sh
 $ gradle test
 ```
 
-in your terminal.
+w konsoli.
 
-## Source
+## Źródło
 
-Inspired by the Extreme Startup game [https://github.com/rchatley/extreme_startup](https://github.com/rchatley/extreme_startup)
+Zainspirowane projektem: [https://github.com/rchatley/extreme_startup](https://github.com/rchatley/extreme_startup)
