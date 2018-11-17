@@ -34,11 +34,6 @@ And to total:
 - = `5 + 9`
 - = 14
 
-## Extensions
-
-- You can play a double or a triple letter.
-- You can play a double or a triple word.
-
 # Running the tests
 
 You can run all the tests for an exercise by entering
@@ -52,7 +47,3 @@ in your terminal.
 ## Source
 
 Inspired by the Extreme Startup game [https://github.com/rchatley/extreme_startup](https://github.com/rchatley/extreme_startup)
-
-## Submitting Incomplete Solutions
-
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
